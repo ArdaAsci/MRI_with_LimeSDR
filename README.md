@@ -4,9 +4,9 @@ This project was built as an Electrical & Electronics Engineering senior project
 
 ## Authors
 Abdullah Arda Aşcı  
-Uğur Yılmaz
-Ergin Atalar
-Arda Can Aras
-Alp Emre Şahin
-Yaman Yücel
-Alperen Fedakar
+Uğur Yılmaz  
+Ergin Atalar  
+Arda Can Aras  
+Alp Emre Şahin  
+Yaman Yücel  
+Alperen Fedakar  
