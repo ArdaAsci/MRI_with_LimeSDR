@@ -1,11 +1,12 @@
+"""
+Creates the Window Level Adjustment GUI
+Author: Abdullah Arda Aþcý & Uður Yýlmaz
+"""
 from tkinter import * 
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, 
 NavigationToolbar2Tk)
 import numpy as np
-
-
-
 
 def draw_gui(image_data):
     center = 200
@@ -39,7 +40,7 @@ def draw_gui(image_data):
     slider2 =  Scale(top_frame, from_=0, to_= 1000, label = "width", length=200,
                     orient= HORIZONTAL, command=slider2_handle)
     slider2.pack(side=RIGHT)
-    slider1.set(half_width*2)
+    slider2.set(half_width*2)
 
     fig = Figure(figsize = (8, 8) )
     axs = fig.add_subplot(111)

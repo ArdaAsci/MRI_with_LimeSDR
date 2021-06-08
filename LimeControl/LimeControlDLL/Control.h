@@ -23,9 +23,4 @@ extern "C"
 
 void sleep(const long millis);
 int error();
-int receive_main(int16_t** rec_arr, const double rec_length,
-	const double sample_rate, const double freq_offset,
-	const int channel, const int norm_gain, const double lpfbw);
 
-extern "C" RECEIVE_API int receive_config(int16_t** rec_arr, const char* config_name);
-extern "C" RECEIVE_API int receive(int16_t** rec_arr, const double rec_length, const double sample_rate, const double freq_offset);
