@@ -1,6 +1,7 @@
 # MRI_with_LimeSDR
 Software side of an MRI spectrometer built with LimeSDR USB
-This project was built as an [Electrical & Electronics Engineering](https://ee.bilkent.edu.tr/en/) senior project for [UMRAM](http://umram.bilkent.edu.tr/index.php/) 
+This project was built as an [Electrical & Electronics Engineering](https://ee.bilkent.edu.tr/en/) senior project for [UMRAM](http://umram.bilkent.edu.tr/index.php/).  
+As of 08.06.2021, the project is fully transferred to UMRAM.
 
 ## Using The Project
 The *LimeControl* file contains the C++ side of the project  
@@ -8,7 +9,7 @@ The *LimeControl_py* file contains the Python side of the project
 To use the project, build the C++ DLL and then call the *lime_control.py* script  
 
 ## Requirements
-A LimeSDR-USB card plugged in  
+A LimeSDR-USB card with the device drivers installed  
 The LimeSuite API to be installed together with its dependencies  
 
 
