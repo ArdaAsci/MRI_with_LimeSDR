@@ -1,0 +1,3 @@
+[submodule "LimeSuite"]
+	path = LimeSuite
+	url = https://github.com/myriadrf/LimeSuite
