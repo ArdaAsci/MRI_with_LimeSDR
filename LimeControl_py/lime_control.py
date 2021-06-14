@@ -4,6 +4,7 @@ import os
 import argparse
 import configparser
 from matplotlib import pyplot as plt
+from sys import exit
 import window_level_gui as wlg
 def manage_parse():
 	"""
@@ -120,12 +121,12 @@ if __name__ == "__main__":
 
 	image = main(general_dict, rec_dict, mri_dict)
 	if image == -1:
-		exit()
+		exit("Closing the lime_control script")
 	print("Plotting")
 	np.savetxt("image.txt", np.abs(image))
 	if general_dict["show_gui"]:
 		wlg.draw_gui(np.abs(image))
-	else: # Plot the same image with different windowing
+	else: # Plot the same image with different windowing levels
 		img, axs = plt.subplots(1,3)
 		axs[0].imshow(np.abs(image), cmap="gray", vmax=200)
 		axs[1].imshow(np.abs(image), cmap="gray", vmax=300)
