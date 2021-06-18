@@ -1,6 +1,6 @@
 # MRI_with_LimeSDR
 Software side of an MRI spectrometer built with LimeSDR USB
-This project was built as an [Electrical & Electronics Engineering](https://ee.bilkent.edu.tr/en/) senior project for  
+This project was built as an [Electrical & Electronics Engineering](https://ee.bilkent.edu.tr/en/) senior project for 
 [UMRAM](http://umram.bilkent.edu.tr/index.php/) with the support of TÜBİTAK.  
 As of 08.06.2021, the project is fully transferred to UMRAM.
 
