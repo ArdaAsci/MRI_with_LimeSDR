@@ -1,1 +1,13 @@
-﻿  LimeControlDLL.vcxproj -> C:\Users\c\Desktop\lime_bitirme\LimeControl\x64\Release\LimeControlDLL.dll
+﻿  pch.cpp
+  Control.cpp
+C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\LimeControlDLL\Control.cpp(46,21): warning C4244: 'initializing': conversion from 'float_type' to '__int64', possible loss of data
+C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\LimeControlDLL\Control.cpp(121,28): warning C4244: '=': conversion from 'float_type' to '__int64', possible loss of data
+  dllmain.cpp
+C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\LimeControlDLL\Control.cpp(134,28): warning C4244: '=': conversion from 'float_type' to '__int64', possible loss of data
+     Creating library C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\x64\Release\LimeControlDLL.lib and object C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\x64\Release\LimeControlDLL.exp
+  Generating code
+  15 of 15 functions (100.0%) were compiled.
+    3 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LimeControlDLL.vcxproj -> C:\Users\c\Desktop\lime_bitirme\MRI_with_LimeSDR\LimeControl\x64\Release\LimeControlDLL.dll
