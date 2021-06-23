@@ -11,7 +11,10 @@ To use the project, build the C++ DLL and then call the *lime_control.py* script
 
 ## Requirements
 A LimeSDR-USB card with the device drivers installed  
-
+download with:  
+'''
+git clone --recursive https://github.com/ArdaAsci/MRI_with_LimeSDR
+'''
 ## Authors
 [Abdullah Arda Aşcı](https://www.linkedin.com/in/abdullah-arda-a%C5%9Fc%C4%B1-19388b192/)  
 [Uğur Yılmaz](https://www.linkedin.com/in/u%C4%9Fur-y%C4%B1lmaz-0383b6163/?originalSubdomain=tr)  
